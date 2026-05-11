@@ -57,7 +57,8 @@ Rules:
     });
 
     if (!response.ok) {
-      throw new Error(`Claude API error: ${response.status}`);
+      const errBody = await response.text();
+      throw new Error(`Claude API error: ${response.status} - ${errBody}`);
     }
 
     const data = await response.json();
