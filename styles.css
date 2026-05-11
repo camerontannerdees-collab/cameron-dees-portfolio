@@ -39,7 +39,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(15, 25, 28, 0.55);
+  background: rgba(15, 25, 28, 0.25);
   pointer-events: none;
 }
 
@@ -58,7 +58,7 @@ body {
   overflow: hidden;
   border-radius: 40px;
   flex-shrink: 0;
-  background: var(--bg);
+  background: transparent;
 }
 
 .about-photo {
