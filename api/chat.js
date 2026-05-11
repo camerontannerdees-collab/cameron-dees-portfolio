@@ -18,6 +18,11 @@ module.exports = async function handler(req, res) {
     // Cap input length to control token usage
     const trimmed = message.trim().slice(0, 500);
 
+    // Debug: confirm API key is loaded
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) return res.status(500).json({ error: 'API key not set in environment.' });
+    if (apiKey.length < 20) return res.status(500).json({ error: `API key too short: ${apiKey.length} chars` });
+
     // Load Cameron's info from markdown file
     const infoPath = path.join(__dirname, 'cameron-info.md');
     const cameronInfo = fs.readFileSync(infoPath, 'utf8');
