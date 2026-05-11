@@ -40,10 +40,10 @@ body {
 }
 
 .about-photo-wrap {
-  width: 160px;
-  height: 200px;
+  width: 210px;
+  height: 250px;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 24px;
   flex-shrink: 0;
   background: var(--bg);
 }
