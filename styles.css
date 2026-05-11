@@ -29,6 +29,18 @@ body {
 .about {
   border-bottom: 1px solid var(--border);
   padding: 4rem 2rem;
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center 40%;
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 25, 28, 0.55);
+  pointer-events: none;
 }
 
 .about-inner {
@@ -37,6 +49,7 @@ body {
   display: flex;
   gap: 3rem;
   align-items: flex-start;
+  position: relative;
 }
 
 .about-photo-wrap {
@@ -59,6 +72,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  background: rgba(180, 200, 200, 0.12);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 1.5rem;
 }
 
 .about-text h1 {
