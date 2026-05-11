@@ -60,6 +60,6 @@ Rules:
 
   } catch (err) {
     console.error('Chat error:', err);
-    return res.status(500).json({ error: 'Something went wrong. Try again in a moment.' });
+    return res.status(500).json({ error: err.message || String(err) });
   }
 };
