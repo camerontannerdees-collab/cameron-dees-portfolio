@@ -19,7 +19,7 @@ module.exports = async function handler(req, res) {
     const trimmed = message.trim().slice(0, 500);
 
     // Load Cameron's info from markdown file
-    const infoPath = path.join(__dirname, '..', 'cameron-info.md');
+    const infoPath = path.join(__dirname, 'cameron-info.md');
     const cameronInfo = fs.readFileSync(infoPath, 'utf8');
 
     const systemPrompt = `You are a friendly chatbot on Cameron Dees' portfolio website. Your job is to answer questions about Cameron's background, projects, and skills.
