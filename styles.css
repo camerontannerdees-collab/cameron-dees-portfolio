@@ -278,6 +278,19 @@ footer {
   background: var(--dark);
 }
 
+.beta-tag {
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: var(--green);
+  color: #fff;
+  border-radius: 4px;
+  padding: 0.1rem 0.4rem;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
 #chat-close {
   background: none;
   border: none;
