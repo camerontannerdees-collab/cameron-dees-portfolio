@@ -52,5 +52,98 @@
     <p>Built with Claude</p>
   </footer>
 
+  <!-- Chat Widget -->
+  <button id="chat-btn" aria-label="Chat with Cameron">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span>Ask me about Cameron</span>
+  </button>
+
+  <div id="chat-panel" role="dialog" aria-label="Chat with Cameron">
+    <div id="chat-header">
+      <span>Chat with Cameron</span>
+      <button id="chat-close" aria-label="Close chat">&times;</button>
+    </div>
+    <div id="chat-messages"></div>
+    <div id="chat-footer">
+      <input id="chat-input" type="text" placeholder="Ask me anything..." maxlength="500" autocomplete="off" />
+      <button id="chat-send">Send</button>
+    </div>
+  </div>
+
+  <script>
+    const chatBtn = document.getElementById('chat-btn');
+    const chatPanel = document.getElementById('chat-panel');
+    const chatClose = document.getElementById('chat-close');
+    const chatInput = document.getElementById('chat-input');
+    const chatSend = document.getElementById('chat-send');
+    const chatMessages = document.getElementById('chat-messages');
+
+    let opened = false;
+
+    chatBtn.addEventListener('click', () => {
+      chatPanel.classList.toggle('open');
+      if (!opened) {
+        appendMessage("Hi! I'm Cameron's assistant. Ask me about his projects, background, or skills.", 'bot');
+        opened = true;
+      }
+      chatInput.focus();
+    });
+
+    chatClose.addEventListener('click', () => chatPanel.classList.remove('open'));
+
+    async function sendMessage() {
+      const msg = chatInput.value.trim();
+      if (!msg) return;
+
+      chatInput.value = '';
+      chatInput.disabled = true;
+      chatSend.disabled = true;
+
+      appendMessage(msg, 'user');
+      const typing = appendTyping();
+
+      try {
+        const res = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: msg }),
+        });
+        const data = await res.json();
+        typing.remove();
+        appendMessage(data.reply || data.error || 'Something went wrong.', 'bot');
+      } catch {
+        typing.remove();
+        appendMessage('Something went wrong. Try again.', 'bot');
+      }
+
+      chatInput.disabled = false;
+      chatSend.disabled = false;
+      chatInput.focus();
+    }
+
+    function appendMessage(text, role) {
+      const div = document.createElement('div');
+      div.className = 'chat-msg chat-msg--' + role;
+      div.textContent = text;
+      chatMessages.appendChild(div);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      return div;
+    }
+
+    function appendTyping() {
+      const div = document.createElement('div');
+      div.className = 'chat-msg chat-msg--bot chat-typing';
+      div.innerHTML = '<span></span><span></span><span></span>';
+      chatMessages.appendChild(div);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      return div;
+    }
+
+    chatSend.addEventListener('click', sendMessage);
+    chatInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+    });
+  </script>
+
 </body>
 </html>
