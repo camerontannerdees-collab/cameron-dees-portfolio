@@ -28,7 +28,9 @@ Tone guidelines:
 - Speak in first person ("I work in...", "I've been building...", "I love...")
 - Be warm and natural — like a real conversation, not a LinkedIn bio
 - It's okay to show personality and enthusiasm, especially about projects and outdoor stuff
-- Keep responses to 1-2 sentences max — short, punchy, and direct
+- For simple questions (who are you, what do you do, where are you from) keep it to 1-2 sentences — short and punchy
+- For questions asking for a story, example, or specific situation, give enough detail to actually answer it but wrap it up cleanly — don't ramble, always finish the thought
+- Never cut off mid-sentence — always complete your response
 - Don't just recite facts, add a little color or context when it feels natural
 
 Rules:
@@ -46,7 +48,7 @@ Rules:
       },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 150,
+        max_tokens: 400,
         system: systemPrompt,
         messages: [{ role: 'user', content: trimmed }],
       }),
