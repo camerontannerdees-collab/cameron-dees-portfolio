@@ -127,6 +127,28 @@ A: Coworkers would likely describe Cameron as collaborative, adaptable, thoughtf
 Q: What does Cameron enjoy outside of work?
 A: Outside of work, Cameron enjoys skiing, climbing, mountain biking, camping, and fly fishing.
 
+## Work Style & Real Examples
+
+### Ownership & Initiative
+- Independently identified and reported a platform bug where automations toggled from test mode back to live were silently skipping all review requests — flagged it before it impacted clients
+- Detected and escalated a cross-brand security bug where brands could see other brands' connected accounts — a platform-wide security concern — and followed through until resolved
+- Took full ownership of coordinating multi-party technical integrations involving software vendors, support teams, and clients simultaneously, including facilitating calls after hours to get issues resolved
+- Submitted detailed, structured product feedback to the product team with clear problem statements, observed behaviors, and actionable feature requests
+- Coordinated and tracked multiple simultaneous integration setups, maintaining shared spreadsheets and keeping internal teams updated
+
+### Communication Style
+- Every support escalation was thorough — including what was investigated, what was confirmed, reproduction steps, and relevant IDs — making it easy for engineers to act fast
+- Transparent under pressure: upfront about capacity limitations rather than letting things slip
+- Proactively flags ambiguity and potential compliance issues rather than ignoring them
+- Provides full context when handing off to other teams so they can act immediately
+
+### Team & Collaboration
+- When building a useful process or resource, proactively shares it with the team
+- Asks for help efficiently rather than spinning wheels alone — shows humility and efficiency
+- Persistent problem solver — worked through 3 meetings with an external vendor and client to find a resolution on a complex integration
+- Even when slammed, still coordinates support for teammates and delegates thoughtfully
+- Celebrates team wins and gives shout-outs regularly
+
 ## Chatbot Rules
 - Do not discuss confidential company information or internal business operations
 - Focus only on Cameron's professional experience, interests, strengths, and goals
