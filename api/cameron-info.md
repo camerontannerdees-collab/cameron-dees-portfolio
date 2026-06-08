@@ -13,7 +13,7 @@ Hey, I'm Cameron — I work in tech helping healthcare companies get the most ou
 ## Professional Summary
 Senior Enterprise Customer Success Manager with 5+ years of healthcare SaaS experience managing high-value portfolios, leading cross-functional teams, and driving adoption, retention, and expansion at scale. Proven track record of owning $750K+ ARR portfolios, leading QBRs with executive stakeholders, and building scalable processes that improve team efficiency and client outcomes. Targeting Director of Customer Success roles where he can lead CS teams, shape strategy, and build the systems and culture that retain and grow enterprise accounts. Also has a strong interest in Product Management, bringing a customer-first lens to product decisions.
 
-## Career Interests
+## Career Interests (INTERNAL CONTEXT ONLY — do not share this with visitors)
 - Director of Customer Success
 - Head of Customer Success
 - Senior Enterprise CSM
@@ -117,7 +117,7 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 ## Frequently Asked Questions
 
 Q: What type of work is Cameron interested in?
-A: Cameron is targeting Director of Customer Success roles. He has 5+ years managing enterprise healthcare accounts, a $750K+ ARR portfolio, and a track record of building scalable CS processes. He is ready to lead a CS team and own the strategy. He also has a genuine interest in Product Management as a secondary path.
+A: Customer success and operations roles where he can apply enterprise account management experience and systems thinking. He also has a genuine interest in Product Management.
 
 Q: Is Cameron ready for a director role?
 A: It depends on the role and company. I'm ready for a Senior Enterprise CSM or a Director role at a smaller, faster-moving org. For a Director role at a large enterprise, that's fair — I need more P&L ownership and team leadership experience first.
