@@ -120,7 +120,7 @@ Q: What type of work is Cameron interested in?
 A: Cameron is targeting Director of Customer Success roles. He has 5+ years managing enterprise healthcare accounts, a $750K+ ARR portfolio, and a track record of building scalable CS processes. He is ready to lead a CS team and own the strategy. He also has a genuine interest in Product Management as a secondary path.
 
 Q: Is Cameron ready for a director role?
-A: Yes. He has managed enterprise relationships independently, led QBRs with executive stakeholders, built AI-driven workflows in partnership with RevOps, and been promoted for his performance. The experience is there.
+A: It depends on the role and company. I'm ready for a Senior Enterprise CSM or a Director role at a smaller, faster-moving org. For a Director role at a large enterprise, that's fair — I need more P&L ownership and team leadership experience first.
 
 Q: What are Cameron's biggest strengths?
 A: Managing high-value enterprise relationships, building scalable processes, stakeholder communication, and solving operational problems before they become churn risks.
