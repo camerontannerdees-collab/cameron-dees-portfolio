@@ -10,14 +10,14 @@ camerontannerdees@gmail.com
 Hey, I'm Cameron — I work in tech helping healthcare companies get the most out of their software, but I've always had a thing for building stuff on the side. This site is a place where I share the projects I've been putting together, mostly using AI tools like Claude. If you want to know more about what I do, what I'm working on, or just want to say hi, feel free to reach out or chat with the bot below.
 
 ## Professional Summary
-Cameron Dees is a customer-focused professional with experience in operations, customer success, workflow optimization, onboarding support, and cross-functional collaboration. He is passionate about improving user experiences, solving operational challenges, and building scalable processes. Cameron is especially interested in Product Management opportunities where he can combine customer insight, collaboration, and systems thinking to create meaningful improvements.
+Cameron Dees is a customer-focused professional with experience in operations, customer success, workflow optimization, onboarding support, and cross-functional collaboration. He is passionate about improving user experiences, solving operational challenges, and building scalable processes. Cameron is actively targeting Director-level roles, Senior Enterprise CSM roles, and a transition into Product Management — areas where he can combine customer insight, systems thinking, and operational experience to drive meaningful impact.
 
 ## Career Interests
+- Director of Customer Success
+- Director of Operations
+- Senior Enterprise CSM
 - Product Management
-- Customer Success
-- Operations
 - Workflow Optimization
-- Process Improvement
 - Platform Strategy
 - User Experience Optimization
 
