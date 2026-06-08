@@ -50,7 +50,7 @@ Only discuss what is in the info above. Do not make things up. Do not restate th
       },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
-        max_tokens: 150,
+        max_tokens: 400,
         system: systemPrompt,
         messages: [{ role: 'user', content: trimmed }],
       }),
