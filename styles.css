@@ -74,10 +74,8 @@ body {
   flex-direction: column;
   gap: 0.5rem;
   overflow: hidden;
-  background: rgba(180, 200, 200, 0.12);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 14px;
   padding: 1.5rem;
 }
@@ -90,7 +88,7 @@ body {
 }
 
 .location {
-  color: #1a3a42;
+  color: var(--accent);
   font-size: 0.95rem;
   font-weight: 600;
 }
