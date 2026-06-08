@@ -1,16 +1,17 @@
 # About Cameron Dees
 
 ## Location
-Salt Lake City, Utah
+Millcreek, UT
 
 ## Contact
-camerontannerdees@gmail.com
+cameron@thedeesfamily.com
+(801) 733-0600
 
 ## Bio
 Hey, I'm Cameron — I work in tech helping healthcare companies get the most out of their software, but I've always had a thing for building stuff on the side. This site is a place where I share the projects I've been putting together, mostly using AI tools like Claude. If you want to know more about what I do, what I'm working on, or just want to say hi, feel free to reach out or chat with the bot below.
 
 ## Professional Summary
-Cameron Dees is a customer-focused professional with experience in operations, customer success, workflow optimization, onboarding support, and cross-functional collaboration. He is passionate about improving user experiences, solving operational challenges, and building scalable processes. Cameron is actively targeting Director-level roles, Senior Enterprise CSM roles, and a transition into Product Management — areas where he can combine customer insight, systems thinking, and operational experience to drive meaningful impact.
+Senior Customer Success Manager with 5+ years of healthcare SaaS experience, specializing in proactive customer health management, adoption-driven engagement, and retention and expansion across high-volume portfolios. Passionate about technology with personal projects including custom-built web tools and websites, and hands-on use of AI tools such as Claude and ChatGPT Enterprise for productivity and automation. Actively targeting Director-level roles, Senior Enterprise CSM roles, and a transition into Product Management.
 
 ## Career Interests
 - Director of Customer Success
@@ -73,10 +74,10 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 ## Experience
 
 ### Swell CX — Senior Enterprise Customer Success Manager (April 2023 – Present)
-- Manage enterprise healthcare clients driving adoption, risk mitigation, and revenue growth
-- Lead QBRs with enterprise healthcare DSOs (Swish Dental, Catalyst Dental Allies)
-- Manage a portfolio representing $750,000+ in ARR
-- Lead onboarding and productization of technology stacks for healthcare offices
+- Manage growing relationships with enterprise healthcare clients, driving product adoption, mitigating churn risks, and ensuring client success across internal and external stakeholders
+- Lead QBRs with enterprise healthcare DSOs (Swish Dental, Catalyst Dental Allies) to ensure strategic alignment and growth opportunities
+- Manage a portfolio of enterprise healthcare clients representing $750,000+ in ARR, supporting adoption, renewals, and expansion
+- Led Customer Success AI adoption initiatives in partnership with RevOps, developing scalable frameworks for client communications, meeting recaps, action tracking, and team workflows
 - Promoted to Senior Enterprise CSM for strong sales and client management performance
 
 ### Level9 Sports — Regional Manager (February 2019 – April 2023)
@@ -91,15 +92,17 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 
 ## Education
 - Fullstack Academy — Product Management Bootcamp (September 2023 – January 2024)
-  - Agile, Scrum, Prioritization frameworks (Value vs Effort, RICE)
-  - Tools: Jira, Pendo, Trello, HubSpot, Anthropic
+  - Frameworks: Agile, Scrum, Prioritization (Value vs Effort, RICE)
+  - Tools: Microsoft Office Suite, Jira, Pendo, Trello, HubSpot, Anthropic
+  - Skills: Channel Partner Management, User Research and Empathy, Product Requirements Gathering and Prioritization, Healthcare Operations Knowledge, Customer Advocacy
+  - Early AI adopter with hands-on experience using Claude and ChatGPT Enterprise
 - Salt Lake Community College — Associate's in Communications
 
 ## Skills
 - Enterprise Customer Success & Multi-Location Portfolio Management
 - Executive Stakeholder Management
 - Cross-Functional Escalation Leadership & Renewal Risk Management
-- Agile, Scrum, RICE prioritization
+- Results-Oriented Problem Solving
 - Tools: Microsoft Office Suite, Jira, Pendo, Trello, HubSpot
 - Early AI adopter — Claude, ChatGPT Enterprise
 - Web development (personal): HTML, CSS, JavaScript, Vercel
@@ -116,7 +119,7 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 ## Frequently Asked Questions
 
 Q: What type of work is Cameron interested in?
-A: Cameron is interested in Product Management, operations, workflow optimization, and customer-focused roles where he can improve systems and user experiences.
+A: Cameron is actively targeting Director-level roles, Senior Enterprise CSM roles, and a transition into Product Management. He is looking for opportunities where customer insight, operational experience, and systems thinking come together.
 
 Q: What are Cameron's biggest strengths?
 A: Cameron's strengths include workflow optimization, communication, customer experience thinking, adaptability, collaboration, and operational problem solving.
@@ -156,7 +159,7 @@ A: Outside of work, Cameron enjoys skiing, climbing, mountain biking, camping, a
 - Celebrates team wins and gives shout-outs regularly
 
 ## Chatbot Rules
+- Focus only on Cameron's professional experience, interests, strengths, goals, and projects
 - Do not discuss confidential company information or internal business operations
-- Focus only on Cameron's professional experience, interests, strengths, and goals
-- Keep responses clear, direct, and professional
-- Avoid exaggerated claims
+- If asked something outside that scope, say: "That is a bit outside what I can speak to. Reach out at cameron@thedeesfamily.com if you want to chat."
+- Avoid exaggerated claims. If a question cannot be answered from the info provided, say so directly.
