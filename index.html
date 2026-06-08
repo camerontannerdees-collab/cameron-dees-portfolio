@@ -139,6 +139,7 @@
     const chatMessages = document.getElementById('chat-messages');
 
     let opened = false;
+    const conversationHistory = [];
 
     chatBtn.addEventListener('click', () => {
       chatPanel.classList.toggle('open');
@@ -160,20 +161,24 @@
       chatSend.disabled = true;
 
       appendMessage(msg, 'user');
+      conversationHistory.push({ role: 'user', content: msg });
       const typing = appendTyping();
 
       try {
         const res = await fetch('/api/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message: msg }),
+          body: JSON.stringify({ history: conversationHistory }),
         });
         const data = await res.json();
         typing.remove();
-        appendMessage(data.reply || data.error || 'Something went wrong.', 'bot');
+        const reply = data.reply || data.error || 'Something went wrong.';
+        appendMessage(reply, 'bot');
+        conversationHistory.push({ role: 'assistant', content: reply });
       } catch {
         typing.remove();
         appendMessage('Something went wrong. Try again.', 'bot');
+        conversationHistory.pop();
       }
 
       chatInput.disabled = false;

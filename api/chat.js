@@ -10,12 +10,16 @@ module.exports = async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end();
 
   try {
-    const { message } = req.body;
-    if (!message || typeof message !== 'string') {
+    const { history } = req.body;
+    if (!Array.isArray(history) || history.length === 0) {
       return res.status(400).json({ error: 'Message required.' });
     }
 
-    const trimmed = message.trim().slice(0, 500);
+    const messages = history.map(m => ({
+      role: m.role === 'assistant' ? 'assistant' : 'user',
+      content: String(m.content).slice(0, 500),
+    }));
+
     const cameronInfo = fs.readFileSync(path.join(__dirname, 'cameron-info.md'), 'utf8');
 
     const systemPrompt = `You are a chatbot on Cameron Dees' portfolio website. Speak in first person as Cameron.
@@ -52,7 +56,7 @@ Only discuss what is in the info above. Do not make things up. Do not restate th
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 400,
         system: systemPrompt,
-        messages: [{ role: 'user', content: trimmed }],
+        messages,
       }),
     });
 
