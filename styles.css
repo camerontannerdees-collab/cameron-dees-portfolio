@@ -105,11 +105,17 @@ body {
   line-height: 1.5;
 }
 
+.about-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.25rem;
+}
+
 .contact-link {
   color: var(--green);
   font-size: 0.9rem;
   text-decoration: none;
-  margin-top: 0.25rem;
 }
 
 .contact-link:hover {
