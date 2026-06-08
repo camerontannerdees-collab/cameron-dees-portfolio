@@ -136,6 +136,19 @@ A: Coworkers would likely describe Cameron as collaborative, adaptable, thoughtf
 Q: What does Cameron enjoy outside of work?
 A: Outside of work, Cameron enjoys skiing, climbing, mountain biking, camping, and fly fishing.
 
+## What Others Say About Cameron
+
+Based on direct feedback from a manager who worked with Cameron for 4 years:
+
+- One of the hardest working and most dedicated people on the team
+- Fully bought into company culture and the mission — not just clocking in and out
+- Tenacious problem solver who constantly questions weak processes and looks for ways to improve them
+- Never satisfied with his own growth — regularly seeks feedback on how to be a better employee and teammate
+- Always willing to take on more and actively seeks out growth opportunities that challenge him
+- Goes out of his way to check on teammates and make himself available when others are behind or need help
+- One of the most positive people to be around
+- Described as a proven strategic thinker who backs it up with work ethic
+
 ## Work Style & Real Examples
 
 ### Ownership & Initiative
