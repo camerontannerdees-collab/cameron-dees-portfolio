@@ -64,6 +64,12 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 - Description: This portfolio site showcasing Cameron's personal projects, built with plain HTML/CSS and deployed on Vercel. Features an AI chatbot powered by Claude.
 - Built with: Claude
 
+### Writing Vault
+- GitHub: https://github.com/camerontannerdees-collab/writing-vault
+- Type: AI Writing System
+- Description: An AI-assisted writing workspace where a Claude agent drafts essays, memos, and updates in Cameron's own voice. It runs on a detailed writing guide with rules for tone, structure, banned phrasing, and how to shift between public, investor, team, and customer audiences — so every draft reads like Cameron, not like a chatbot.
+- Built with: Claude
+
 ## Experience
 
 ### Swell CX — Senior Enterprise Customer Success Manager (April 2023 – Present)
