@@ -72,11 +72,11 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 ## Experience
 
 ### Swell CX — Senior Enterprise Customer Success Manager (April 2023 – Present)
+- Promoted to Senior Enterprise CSM for strong sales and client management performance
 - Manage growing relationships with enterprise healthcare clients, driving product adoption, mitigating churn risks, and ensuring client success across internal and external stakeholders
 - Lead QBRs with enterprise healthcare DSOs (Swish Dental, Catalyst Dental Allies) to ensure strategic alignment and growth opportunities
 - Manage a portfolio of enterprise healthcare clients representing $750,000+ in ARR, supporting adoption, renewals, and expansion
 - Led Customer Success AI adoption initiatives in partnership with RevOps, developing scalable frameworks for client communications, meeting recaps, action tracking, and team workflows
-- Promoted to Senior Enterprise CSM for strong sales and client management performance
 
 ### Level9 Sports — Regional Manager (February 2019 – April 2023)
 - Managed a team of 15 in the outdoor industry
