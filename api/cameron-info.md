@@ -11,16 +11,14 @@ cameron@thedeesfamily.com
 Hey, I'm Cameron — I work in tech helping healthcare companies get the most out of their software, but I've always had a thing for building stuff on the side. This site is a place where I share the projects I've been putting together, mostly using AI tools like Claude. If you want to know more about what I do, what I'm working on, or just want to say hi, feel free to reach out or chat with the bot below.
 
 ## Professional Summary
-Senior Customer Success Manager with 5+ years of healthcare SaaS experience, specializing in proactive customer health management, adoption-driven engagement, and retention and expansion across high-volume portfolios. Passionate about technology with personal projects including custom-built web tools and websites, and hands-on use of AI tools such as Claude and ChatGPT Enterprise for productivity and automation. Actively targeting Director-level roles, Senior Enterprise CSM roles, and a transition into Product Management.
+Senior Enterprise Customer Success Manager with 5+ years of healthcare SaaS experience managing high-value portfolios, leading cross-functional teams, and driving adoption, retention, and expansion at scale. Proven track record of owning $750K+ ARR portfolios, leading QBRs with executive stakeholders, and building scalable processes that improve team efficiency and client outcomes. Targeting Director of Customer Success roles where he can lead CS teams, shape strategy, and build the systems and culture that retain and grow enterprise accounts. Also has a strong interest in Product Management, bringing a customer-first lens to product decisions.
 
 ## Career Interests
 - Director of Customer Success
-- Director of Operations
+- Head of Customer Success
 - Senior Enterprise CSM
-- Product Management
-- Workflow Optimization
-- Platform Strategy
-- User Experience Optimization
+- VP of Customer Success
+- Product Management (secondary interest)
 
 ## Core Strengths
 - Customer journey analysis
@@ -119,19 +117,22 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 ## Frequently Asked Questions
 
 Q: What type of work is Cameron interested in?
-A: Cameron is actively targeting Director-level roles, Senior Enterprise CSM roles, and a transition into Product Management. He is looking for opportunities where customer insight, operational experience, and systems thinking come together.
+A: Cameron is targeting Director of Customer Success roles. He has 5+ years managing enterprise healthcare accounts, a $750K+ ARR portfolio, and a track record of building scalable CS processes. He is ready to lead a CS team and own the strategy. He also has a genuine interest in Product Management as a secondary path.
+
+Q: Is Cameron ready for a director role?
+A: Yes. He has managed enterprise relationships independently, led QBRs with executive stakeholders, built AI-driven workflows in partnership with RevOps, and been promoted for his performance. The experience is there.
 
 Q: What are Cameron's biggest strengths?
-A: Cameron's strengths include workflow optimization, communication, customer experience thinking, adaptability, collaboration, and operational problem solving.
+A: Managing high-value enterprise relationships, building scalable processes, stakeholder communication, and solving operational problems before they become churn risks.
 
 Q: How does Cameron approach problem solving?
-A: Cameron focuses on understanding the full workflow, identifying friction points, and building practical solutions that improve efficiency and user experience.
+A: He starts with the workflow, finds where things are breaking down, and builds practical fixes that hold up at scale. He also flags issues proactively rather than waiting to be asked.
 
 Q: What makes Cameron interested in Product Management?
-A: Cameron enjoys connecting customer needs, workflows, and operational insights to improve products and systems in meaningful ways.
+A: He has spent years translating customer pain into structured feedback for product teams. The bootcamp gave him the frameworks. PM would let him close the loop on work he is already doing.
 
 Q: How would coworkers describe Cameron?
-A: Coworkers would likely describe Cameron as collaborative, adaptable, thoughtful, dependable, and solutions-oriented.
+A: Hardworking, dependable, collaborative, and proactive. A manager who worked with him for 4 years called him a proven strategic thinker who backs it up with work ethic.
 
 Q: What does Cameron enjoy outside of work?
 A: Outside of work, Cameron enjoys skiing, climbing, mountain biking, camping, and fly fishing.
