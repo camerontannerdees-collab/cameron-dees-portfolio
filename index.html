@@ -73,8 +73,8 @@
           <span class="stat-label">Built from Scratch</span>
         </div>
         <div class="stat-item scroll-reveal" style="--delay: 0.45s">
-          <span class="stat-number" data-target="100" data-suffix="% Healthcare">0</span>
-          <span class="stat-label">Industry Focus</span>
+          <span class="stat-number" data-target="0" data-prefix="∞">∞</span>
+          <span class="stat-label">Tabs Open at Once</span>
         </div>
       </div>
     </section>
@@ -268,7 +268,7 @@
     const statObserver = new IntersectionObserver((entries) => {
       entries.forEach(e => {
         if (e.isIntersecting) {
-          animateCounter(e.target);
+          if (e.target.dataset.target !== '0') animateCounter(e.target);
           statObserver.unobserve(e.target);
         }
       });
