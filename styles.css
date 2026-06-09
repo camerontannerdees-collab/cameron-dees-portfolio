@@ -93,6 +93,17 @@ body {
   font-weight: 600;
 }
 
+.typed-tagline {
+  color: var(--green);
+  font-size: 0.9rem;
+  font-weight: 500;
+  min-height: 1.4em;
+}
+
+.typed-cursor {
+  color: var(--green);
+}
+
 .bio {
   color: var(--muted);
   font-size: 0.85rem;
@@ -146,6 +157,12 @@ body {
   text-transform: uppercase;
   color: var(--muted);
   margin-bottom: 1.5rem;
+  animation-fill-mode: both;
+}
+
+.about-photo-wrap,
+.about-text {
+  animation-fill-mode: both;
 }
 
 /* Grid */
@@ -165,6 +182,7 @@ body {
   flex-direction: column;
   gap: 0.75rem;
   transition: border-color 0.15s;
+  animation-fill-mode: both;
 }
 
 .card:hover {

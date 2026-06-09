@@ -3,8 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cameron Dees</title>
+  <title>Cameron Dees | Senior Enterprise CSM</title>
+  <meta name="description" content="Cameron Dees — Senior Enterprise CSM in healthcare SaaS, builder of AI-powered tools, and writer on tech and career growth. Based in Salt Lake City, Utah." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cameron Dees | Senior Enterprise CSM" />
+  <meta property="og:description" content="Senior Enterprise CSM in healthcare SaaS, builder of AI-powered tools, and writer on tech and career growth." />
+  <meta property="og:image" content="https://cameron-dees-portfolio.vercel.app/profile.png" />
+  <meta property="og:url" content="https://cameron-dees-portfolio.vercel.app/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Cameron Dees | Senior Enterprise CSM" />
+  <meta name="twitter:description" content="Senior Enterprise CSM in healthcare SaaS, builder of AI-powered tools, and writer on tech and career growth." />
+  <meta name="twitter:image" content="https://cameron-dees-portfolio.vercel.app/profile.png" />
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
 
@@ -13,15 +30,20 @@
     <!-- About Section -->
     <section class="about">
       <div class="about-inner">
-        <div class="about-photo-wrap">
+        <div class="about-photo-wrap animate__animated animate__fadeInLeft">
           <img src="profile.png" alt="Cameron Dees" class="about-photo" />
         </div>
-        <div class="about-text">
+        <div class="about-text animate__animated animate__fadeInRight">
           <h1>Cameron Dees</h1>
           <p class="location">Salt Lake City, Utah</p>
+          <p class="typed-tagline"><span id="typed-tagline"></span></p>
           <p class="bio">Hey, I'm Cameron — I work in tech helping healthcare companies get the most out of their software, but I've always had a thing for building stuff on the side. This site is a place where I share the projects I've been putting together, mostly using AI tools like Claude. If you want to know more about what I do, what I'm working on, or just want to say hi, feel free to reach out or chat with the bot below.</p>
           <div class="about-links">
             <a href="mailto:camerontannerdees@gmail.com" class="contact-link">camerontannerdees@gmail.com</a>
+            <a href="https://www.linkedin.com/in/cameron-dees/" class="contact-link linkedin-link" target="_blank" rel="noopener">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" style="vertical-align:middle;margin-right:3px"><path d="M20.447 20.452H17.21v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.986V9h3.12v1.561h.042c.434-.823 1.494-1.691 3.075-1.691 3.29 0 3.897 2.166 3.897 4.984v6.598zM5.337 7.433a1.814 1.814 0 1 1 0-3.628 1.814 1.814 0 0 1 0 3.628zm1.561 13.019H3.775V9h3.123v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
             <a href="https://docs.google.com/document/d/1jCpFAiCHQg_fSsKF9MQNDqRMJVWK9vnJ3YX8ZhoFcGY/edit?tab=t.0" class="btn resume-btn" target="_blank" rel="noopener">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
               View Resume
@@ -34,10 +56,10 @@
     <!-- Projects Section -->
     <section class="projects">
       <div class="projects-inner">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title animate__animated animate__fadeInUp">Projects</h2>
         <div class="projects-grid">
 
-          <article class="card">
+          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.1s">
             <div class="card-header">
               <span class="tag">Web App</span>
             </div>
@@ -48,7 +70,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
             <div class="card-header">
               <span class="tag">AI Chatbot</span>
             </div>
@@ -59,7 +81,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.3s">
             <div class="card-header">
               <span class="tag">AI Writing</span>
             </div>
@@ -77,10 +99,10 @@
     <!-- Posts Section -->
     <section class="projects">
       <div class="projects-inner">
-        <h2 class="section-title">Posts</h2>
+        <h2 class="section-title animate__animated animate__fadeInUp">Posts</h2>
         <div class="projects-grid">
 
-          <article class="card">
+          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.1s">
             <div class="card-header">
               <span class="tag">LinkedIn</span>
             </div>
@@ -91,7 +113,7 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
             <div class="card-header">
               <span class="tag">LinkedIn</span>
             </div>
@@ -118,7 +140,7 @@
     <span>Ask me about Cameron</span>
   </button>
 
-  <div id="chat-panel" role="dialog" aria-label="Chat with Cameron">
+  <div id="chat-panel" role="dialog" aria-label="Chat with Cameron" aria-modal="true">
     <div id="chat-header">
       <span>Chat with Cameron <span class="beta-tag">Beta</span></span>
       <button id="chat-close" aria-label="Close chat">&times;</button>
@@ -129,6 +151,22 @@
       <button id="chat-send">Send</button>
     </div>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+  <script>
+    new Typed('#typed-tagline', {
+      strings: [
+        'Senior Enterprise CSM.',
+        'Healthcare SaaS.',
+        'Builder.',
+        'AI Enthusiast.',
+      ],
+      typeSpeed: 55,
+      backSpeed: 30,
+      backDelay: 1800,
+      loop: true,
+    });
+  </script>
 
   <script>
     const chatBtn = document.getElementById('chat-btn');
