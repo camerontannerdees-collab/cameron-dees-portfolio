@@ -20,8 +20,11 @@
   <meta name="twitter:image" content="https://cameron-dees-portfolio.vercel.app/profile.png" />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/slim@3/tsparticles.slim.bundle.min.js" defer></script>
 </head>
 <body>
 
@@ -29,11 +32,12 @@
 
     <!-- About Section -->
     <section class="about">
+      <div id="hero-particles"></div>
       <div class="about-inner">
-        <div class="about-photo-wrap animate__animated animate__fadeInLeft">
+        <div class="about-photo-wrap scroll-reveal">
           <img src="profile.png" alt="Cameron Dees" class="about-photo" />
         </div>
-        <div class="about-text animate__animated animate__fadeInRight">
+        <div class="about-text scroll-reveal" style="--delay: 0.1s">
           <h1>Cameron Dees</h1>
           <p class="location">Salt Lake City, Utah</p>
           <p class="typed-tagline"><span id="typed-tagline"></span></p>
@@ -53,13 +57,86 @@
       </div>
     </section>
 
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+      <div class="stats-inner">
+        <div class="stat-item scroll-reveal" style="--delay: 0s">
+          <span class="stat-number" data-target="750" data-prefix="$" data-suffix="K+ ARR">$0</span>
+          <span class="stat-label">Portfolio Managed</span>
+        </div>
+        <div class="stat-item scroll-reveal" style="--delay: 0.15s">
+          <span class="stat-number" data-target="5" data-suffix="+ Years">0</span>
+          <span class="stat-label">Healthcare SaaS</span>
+        </div>
+        <div class="stat-item scroll-reveal" style="--delay: 0.3s">
+          <span class="stat-number" data-target="3" data-suffix=" AI Tools">0</span>
+          <span class="stat-label">Built from Scratch</span>
+        </div>
+        <div class="stat-item scroll-reveal" style="--delay: 0.45s">
+          <span class="stat-number" data-target="100" data-suffix="% Healthcare">0</span>
+          <span class="stat-label">Industry Focus</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- What I Bring -->
+    <section class="value-prop">
+      <div class="value-inner">
+        <h2 class="section-title scroll-reveal">What I Bring</h2>
+        <div class="value-grid">
+
+          <div class="value-tile scroll-reveal" style="--delay: 0.05s">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3>Enterprise CS</h3>
+            <p>$750K+ ARR portfolio. QBRs with DSO leadership. Renewal risk mitigation at the enterprise level.</p>
+          </div>
+
+          <div class="value-tile scroll-reveal" style="--delay: 0.1s">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <h3>AI Integration</h3>
+            <p>3 production AI tools shipped. Claude API, prompt engineering, and serverless deployment on Vercel.</p>
+          </div>
+
+          <div class="value-tile scroll-reveal" style="--delay: 0.15s">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Process Building</h3>
+            <p>Designed onboarding and ops workflows for healthcare offices. 40% service time reduction at prior role.</p>
+          </div>
+
+          <div class="value-tile scroll-reveal" style="--delay: 0.2s">
+            <div class="value-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Stakeholder Alignment</h3>
+            <p>Executive QBRs, cross-functional escalation leadership, and clear communication across CS, product, and ops.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial-section">
+      <div class="testimonial-inner scroll-reveal">
+        <svg class="quote-mark" width="36" height="36" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.293-3.995 5.847h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.293-3.996 5.847h3.983v10h-9.983z"/></svg>
+        <blockquote class="pull-quote">Proven strategic thinker who backs it up with work ethic.</blockquote>
+        <p class="quote-attribution">— Direct Manager, Swell CX</p>
+      </div>
+    </section>
+
     <!-- Projects Section -->
     <section class="projects">
       <div class="projects-inner">
-        <h2 class="section-title animate__animated animate__fadeInUp">Projects</h2>
+        <h2 class="section-title scroll-reveal">Projects</h2>
         <div class="projects-grid">
 
-          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.1s">
+          <article class="card scroll-reveal" style="--delay: 0.1s">
             <div class="card-header">
               <span class="tag">Web App</span>
             </div>
@@ -70,7 +147,7 @@
             </div>
           </article>
 
-          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
+          <article class="card scroll-reveal" style="--delay: 0.2s">
             <div class="card-header">
               <span class="tag">AI Chatbot</span>
             </div>
@@ -81,7 +158,7 @@
             </div>
           </article>
 
-          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.3s">
+          <article class="card scroll-reveal" style="--delay: 0.3s">
             <div class="card-header">
               <span class="tag">AI Writing</span>
             </div>
@@ -99,10 +176,10 @@
     <!-- Posts Section -->
     <section class="projects">
       <div class="projects-inner">
-        <h2 class="section-title animate__animated animate__fadeInUp">Posts</h2>
+        <h2 class="section-title scroll-reveal">Posts</h2>
         <div class="projects-grid">
 
-          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.1s">
+          <article class="card scroll-reveal" style="--delay: 0.1s">
             <div class="card-header">
               <span class="tag">LinkedIn</span>
             </div>
@@ -113,7 +190,7 @@
             </div>
           </article>
 
-          <article class="card animate__animated animate__fadeInUp" style="animation-delay: 0.2s">
+          <article class="card scroll-reveal" style="--delay: 0.2s">
             <div class="card-header">
               <span class="tag">LinkedIn</span>
             </div>
@@ -153,6 +230,90 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+
+  <!-- Scroll reveal + counter animations + particles -->
+  <script>
+    // Scroll-triggered reveal
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('is-visible');
+          revealObserver.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
+
+    // Hero elements are above the fold — trigger immediately
+    setTimeout(() => {
+      document.querySelectorAll('.about-photo-wrap, .about-text').forEach(el => el.classList.add('is-visible'));
+    }, 150);
+
+    // Animated stat counters
+    function animateCounter(el) {
+      const target = parseInt(el.dataset.target, 10);
+      const prefix = el.dataset.prefix || '';
+      const suffix = el.dataset.suffix || '';
+      const duration = 1400;
+      const start = performance.now();
+      function step(now) {
+        const progress = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = prefix + Math.round(eased * target) + suffix;
+        if (progress < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+
+    const statObserver = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          animateCounter(e.target);
+          statObserver.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll('.stat-number').forEach(el => statObserver.observe(el));
+
+    // tsParticles hero effect
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof tsParticles !== 'undefined') {
+        tsParticles.load({
+          id: 'hero-particles',
+          options: {
+            background: { color: { value: 'transparent' } },
+            fpsLimit: 45,
+            particles: {
+              color: { value: '#7a9faa' },
+              links: {
+                color: '#7a9faa',
+                distance: 140,
+                enable: true,
+                opacity: 0.18,
+                width: 1,
+              },
+              move: {
+                enable: true,
+                speed: 0.6,
+                direction: 'none',
+                random: true,
+                outModes: { default: 'bounce' },
+              },
+              number: { value: 38, density: { enable: true } },
+              opacity: { value: 0.22 },
+              size: { value: { min: 1, max: 2.5 } },
+            },
+            detectRetina: true,
+            interactivity: {
+              events: { onHover: { enable: true, mode: 'grab' } },
+              modes: { grab: { distance: 120, links: { opacity: 0.4 } } },
+            },
+          },
+        });
+      }
+    });
+  </script>
+
   <script>
     new Typed('#typed-tagline', {
       strings: [
