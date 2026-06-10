@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "functions": {
     "api/chat.js": {
-      "includeFiles": "cameron-info.md"
+      "includeFiles": "api/cameron-info.md"
     }
   }
 }

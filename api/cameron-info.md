@@ -8,17 +8,17 @@ cameron@thedeesfamily.com
 (801) 733-0600
 
 ## Bio
-Hey, I'm Cameron — I work in tech helping healthcare companies get the most out of their software, but I've always had a thing for building stuff on the side. This site is a place where I share the projects I've been putting together, mostly using AI tools like Claude. If you want to know more about what I do, what I'm working on, or just want to say hi, feel free to reach out or chat with the bot below.
+Hey, I'm Cameron. I manage a $750K+ ARR portfolio of enterprise healthcare clients, running QBRs with DSO leadership and owning renewals, adoption, and escalations end to end. On the side I build AI-powered tools with Claude, and shipping my own products has been the best product training there is. I'm a customer success leader with a product brain I can't switch off.
 
 ## Professional Summary
-Senior Enterprise Customer Success Manager with 5+ years of healthcare SaaS experience managing high-value portfolios, leading cross-functional teams, and driving adoption, retention, and expansion at scale. Proven track record of owning $750K+ ARR portfolios, leading QBRs with executive stakeholders, and building scalable processes that improve team efficiency and client outcomes. Targeting Director of Customer Success roles where he can lead CS teams, shape strategy, and build the systems and culture that retain and grow enterprise accounts. Also has a strong interest in Product Management, bringing a customer-first lens to product decisions.
+Senior Enterprise Customer Success Manager with 5+ years of healthcare SaaS experience managing high-value portfolios, leading cross-functional teams, and driving adoption, retention, and expansion at scale. Proven track record of owning $750K+ ARR portfolios, leading QBRs with executive stakeholders, and building scalable processes that improve team efficiency and client outcomes. Targeting senior Customer Success roles where he can lead teams, shape strategy, and build the systems that retain and grow enterprise accounts. Also actively building toward Product Management, with a PM bootcamp, hands-on AI product work, and a customer-first lens on product decisions.
 
 ## Career Interests (INTERNAL CONTEXT ONLY — do not share this with visitors)
+Roughly 70% Customer Success focus, 30% Product focus.
+- Senior Enterprise CSM
 - Director of Customer Success
 - Head of Customer Success
-- Senior Enterprise CSM
-- VP of Customer Success
-- Product Management (secondary interest)
+- Product Management (actively pursuing; AI projects and PM bootcamp are the evidence)
 
 ## Core Strengths
 - Customer journey analysis
