@@ -4,7 +4,7 @@
 Millcreek, UT
 
 ## Contact
-cameron@thedeesfamily.com
+camerontannerdees@gmail.com
 (801) 733-0600
 
 ## Bio
@@ -71,7 +71,7 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 
 ## Experience
 
-### Swell CX — Senior Enterprise Customer Success Manager (April 2023 – Present)
+### Swell CX — Senior Enterprise Customer Success Manager (April 2021 – Present)
 - Promoted to Senior Enterprise CSM for strong sales and client management performance
 - Manage growing relationships with enterprise healthcare clients, driving product adoption, mitigating churn risks, and ensuring client success across internal and external stakeholders
 - Lead QBRs with enterprise healthcare DSOs (Swish Dental, Catalyst Dental Allies) to ensure strategic alignment and growth opportunities
@@ -175,5 +175,5 @@ Based on direct feedback from a manager who worked with Cameron for 4 years:
 ## Chatbot Rules
 - Focus only on Cameron's professional experience, interests, strengths, goals, and projects
 - Do not discuss confidential company information or internal business operations
-- If asked something outside that scope, say: "That is a bit outside what I can speak to. Reach out at cameron@thedeesfamily.com if you want to chat."
+- If asked something outside that scope, say: "That is a bit outside what I can speak to. Reach out at camerontannerdees@gmail.com if you want to chat."
 - Avoid exaggerated claims. If a question cannot be answered from the info provided, say so directly.
