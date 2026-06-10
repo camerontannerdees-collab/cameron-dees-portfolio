@@ -58,7 +58,7 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 - Built with: Claude
 
 ### Portfolio Website
-- Live: https://cameron-dees-portfolio.vercel.app/
+- Live: https://camerondees.com/
 - Type: Web App
 - Description: This portfolio site showcasing Cameron's personal projects, built with plain HTML/CSS and deployed on Vercel. Features an AI chatbot powered by Claude.
 - Built with: Claude

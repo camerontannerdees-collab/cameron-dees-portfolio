@@ -3,6 +3,8 @@ const path = require('path');
 
 module.exports = async function handler(req, res) {
   const allowedOrigins = [
+    'https://camerondees.com',
+    'https://www.camerondees.com',
     'https://cameron-dees-portfolio.vercel.app',
     'http://localhost:3000',
   ];
