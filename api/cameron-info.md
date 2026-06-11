@@ -1,17 +1,18 @@
 # About Cameron Dees
 
 ## Location
-Millcreek, UT
+Salt Lake City, UT
 
 ## Contact
 camerontannerdees@gmail.com
 (801) 733-0600
+linkedin.com/in/cameron-dees
 
 ## Bio
-Hey, I'm Cameron. I manage a $750K+ ARR portfolio of enterprise healthcare clients, running QBRs with DSO leadership and owning renewals, adoption, and escalations end to end. On the side I build and ship my own tools with Claude, and shipping my own products has been the best product training there is. I'm a customer success leader with a product brain I can't switch off.
+Hey, I'm Cameron. I manage a $750K+ ARR portfolio of enterprise healthcare clients, running QBRs with DSO leadership and owning renewals, adoption, and escalations end to end. On the side I build and ship my own web tools with Claude — two of them running live on the Claude API — and shipping my own products has been the best product training there is. I'm a customer success leader with a product brain I can't switch off.
 
 ## Professional Summary
-Senior Enterprise Customer Success Manager with 5+ years of healthcare SaaS experience managing high-value portfolios, leading cross-functional teams, and driving adoption, retention, and expansion at scale. Proven track record of owning $750K+ ARR portfolios, leading QBRs with executive stakeholders, and building scalable processes that improve team efficiency and client outcomes. Targeting senior Customer Success roles where he can lead teams, shape strategy, and build the systems that retain and grow enterprise accounts. Also actively building toward Product Management, with a PM bootcamp, hands-on AI product work, and a customer-first lens on product decisions.
+Senior Enterprise Customer Success Manager with 5+ years of healthcare SaaS experience specializing in proactive customer health management, adoption-driven engagement, and retention and expansion across high-volume portfolios. Owns a $750K+ ARR enterprise portfolio, leads Quarterly Business Reviews with executive stakeholders, and builds scalable processes that reduce churn risk. Builds and ships his own web tools with Claude, two running live on the Claude API, and brings practical product management instincts to customer success work.
 
 ## Career Interests (INTERNAL CONTEXT ONLY — do not share this with visitors)
 Roughly 70% Customer Success focus, 30% Product focus.
@@ -57,10 +58,10 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 - Description: A data-driven hunting platform for Utah waterfowl hunters. Aggregates real-time weather, migration, and water condition data to score locations 0–100 and send SMS alerts when conditions hit the user's ideal threshold.
 - Built with: Claude
 
-### Portfolio Website
+### Portfolio Website & AI Chatbot
 - Live: https://camerondees.com/
 - Type: Web App
-- Description: This portfolio site showcasing Cameron's personal projects, built with plain HTML/CSS and deployed on Vercel. Features an AI chatbot powered by Claude.
+- Description: This portfolio site showcasing Cameron's personal projects, built with plain HTML/CSS and deployed on Vercel. Features a Claude-powered chatbot grounded in a curated bio library with prompt guardrails, deployed as a Vercel serverless function.
 - Built with: Claude
 
 ### Writing Vault
@@ -72,39 +73,32 @@ Collaboration, efficiency, continuous improvement, clear communication, adaptabi
 ## Experience
 
 ### Swell CX — Senior Enterprise Customer Success Manager (April 2021 – Present)
-- Promoted to Senior Enterprise CSM for strong sales and client management performance
-- Manage growing relationships with enterprise healthcare clients, driving product adoption, mitigating churn risks, and ensuring client success across internal and external stakeholders
-- Lead QBRs with enterprise healthcare DSOs (Swish Dental, Catalyst Dental Allies) to ensure strategic alignment and growth opportunities
-- Manage a portfolio of enterprise healthcare clients representing $750,000+ in ARR, supporting adoption, renewals, and expansion
-- Led Customer Success AI adoption initiatives in partnership with RevOps, developing scalable frameworks for client communications, meeting recaps, action tracking, and team workflows
+- Manage a portfolio of enterprise healthcare clients representing $750,000+ in ARR, driving product adoption, renewals, and expansion while mitigating churn risk across internal and external stakeholders
+- Lead Quarterly Business Reviews (QBRs) with enterprise healthcare DSOs, including Swish Dental and Catalyst Dental Allies, to ensure strategic alignment and surface growth opportunities
+- Led Customer Success AI adoption initiatives in partnership with RevOps, developing scalable frameworks for client communications, meeting recaps, and action tracking adopted across team workflows
+- Promoted to Senior Enterprise Customer Success Manager in recognition of strong sales and client management performance
 
-### Level9 Sports — Regional Manager (February 2019 – April 2023)
-- Managed a team of 15 in the outdoor industry
-- Implemented management systems resulting in a 40% reduction in service times across all locations
+### Level9 Sports — Regional Manager (February 2019 – April 2021)
+- Reduced service times 40% across all locations by implementing service-order tracking systems for every employee
+- Managed a team of 15 and led customer support efforts across all locations in the outdoor industry
 - Facilitated relationships between customers, store staff, buyers, support teams, and executive management
 
-### Black Diamond Equipment — Quality Assurance Tech (June 2015 – March 2019)
-- Conducted batch tests on raw materials and finished goods
-- Created reports to document failure rates
-- Stored and analyzed large data sets to document historical raw goods quality
+### Black Diamond Equipment — Quality Assurance Technician (June 2015 – March 2019)
+- Conducted batch tests on raw materials and finished goods to ensure quality for shipment to customers
+- Created failure-rate reports and analyzed large data sets to track historical raw goods quality against manufacturing criteria
 
 ## Education
 - Fullstack Academy — Product Management Bootcamp (September 2023 – January 2024)
-  - Frameworks: Agile, Scrum, Prioritization (Value vs Effort, RICE)
-  - Tools: Microsoft Office Suite, Jira, Pendo, Trello, HubSpot, Anthropic
-  - Skills: Channel Partner Management, User Research and Empathy, Product Requirements Gathering and Prioritization, Healthcare Operations Knowledge, Customer Advocacy
-  - Early AI adopter with hands-on experience using Claude and ChatGPT Enterprise
-- Salt Lake Community College — Associate's in Communications
+  - Agile, Scrum, RICE and Value vs. Effort prioritization, user research, product requirements gathering, customer advocacy
+- Salt Lake Community College — Associate's Degree in Communications
 
 ## Skills
 - Enterprise Customer Success & Multi-Location Portfolio Management
-- Executive Stakeholder Management
+- Executive Stakeholder Management & Quarterly Business Reviews (QBRs)
 - Cross-Functional Escalation Leadership & Renewal Risk Management
-- Results-Oriented Problem Solving
-- Tools: Microsoft Office Suite, Jira, Pendo, Trello, HubSpot
-- Early AI adopter — Claude, ChatGPT Enterprise
+- Product Management: Agile, Scrum, RICE and Value vs. Effort Prioritization, User Research, Product Requirements Gathering
+- Tools: Jira, Pendo, HubSpot, Trello, Microsoft Office Suite, Claude, ChatGPT Enterprise
 - Web development (personal): HTML, CSS, JavaScript, Vercel
-- User Research, Product Requirements Gathering, Healthcare Operations
 
 ## Personal Interests
 - Skiing
